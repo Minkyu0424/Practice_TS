@@ -20,5 +20,5 @@ export default function union(params) {
     }
   }
   //식별 가능한 union타입
-  
+
 }
