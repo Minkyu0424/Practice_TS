@@ -16,3 +16,5 @@ const ageConfirm:IsAdult = (age) =>{
     return age > 19;
 }
 ageConfirm(23)
+
+export{};

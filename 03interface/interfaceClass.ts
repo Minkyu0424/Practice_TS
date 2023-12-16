@@ -22,3 +22,5 @@ class Bmw implements Car {
 const bCar = new Bmw("green");
 console.log(bCar);
 bCar.start();
+
+export{};

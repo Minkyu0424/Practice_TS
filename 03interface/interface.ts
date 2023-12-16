@@ -23,3 +23,6 @@ user.gender = "male";
 // user.birthYear=1999;
 
 console.log(user.name);
+
+export{};
+

@@ -34,3 +34,5 @@ myOS = OS.Android;
 //null, undefined
 let nullBox:null=null;
 let udf:undefined=undefined;
+
+export{};
