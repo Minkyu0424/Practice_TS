@@ -19,3 +19,5 @@ const m2: Mobile<string>={
     price:800,
     option:"bad"
 }
+
+export{}
