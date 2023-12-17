@@ -2,7 +2,7 @@ class Car2 {
     readonly name:string="car";
     color:string;
     static wheels=4;
-    constructor(color:string, name){
+    constructor(color:string, name: string){
       this.color=color;
       this.name=name;
     }
@@ -13,7 +13,7 @@ class Car2 {
     }
   }
   class Bmw extends Car2{
-    constructor(color:string, name){
+    constructor(color:string, name: string){
       super(color, name);
     }
     showName(){

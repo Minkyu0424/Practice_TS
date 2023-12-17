@@ -10,7 +10,7 @@ function sayHello2(name = "world") {
 const result = sayHello();
 const result2 = sayHello("Sam");
 
-function addSpread(...nums) {
+function addSpread(...nums: number[]) {
   return nums.reduce((result, num) => result + num, 0);
 }
 
