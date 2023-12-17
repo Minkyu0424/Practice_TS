@@ -1,4 +1,4 @@
-export default function union(params) {
+export default function union() {
   interface Car {
     name: "car";
     color: string;
