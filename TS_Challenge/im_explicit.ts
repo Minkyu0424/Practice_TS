@@ -11,11 +11,11 @@ e.push(1);
 console.log(e);
 //명시적 표현은 최소화하기.
 
-const player ={
-    name:"minkyu"
-}
+const player = {
+  name: "minkyu",
+};
 // player.hello();
- 
+
 const kimchi = {
-    맛있어: true
-}
+  맛있어: true,
+};
