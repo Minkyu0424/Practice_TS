@@ -19,3 +19,5 @@ const player = {
 const kimchi = {
   맛있어: true,
 };
+
+export{};
