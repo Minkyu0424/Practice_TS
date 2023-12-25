@@ -16,7 +16,7 @@ class Dict {
     return this.words[term];
   }
   delete(term: string) {
-    delete this.words.term;
+    delete this.words[term];
   }
   update(word: Word) {
     if (this.words[word.term] !== undefined) {
@@ -39,24 +39,24 @@ class Dict {
       console.log("해당 단어가 존재하지 않습니다.");
     }
   }
-  bulkAdd(wordList : Word[]) {
+  bulkAdd(wordList: Word[]) {
     for (const i in wordList) {
-        if (wordList[i].term === undefined) {
-            this.words[wordList[i].term] = wordList[i].def;
-          }
+      if (wordList[i].term === undefined) {
+        this.words[wordList[i].term] = wordList[i].def;
+      }
     }
   }
   bulkDelete(terms: string[]) {
     for (const term of terms) {
-        delete this.words[term];
-      }
+      delete this.words[term];
+    }
   }
 }
 
 class Word {
   constructor(
-    public term: string,
-    public def: string
+    public readonly term: string,
+    public readonly def: string
   ) {}
 }
 
